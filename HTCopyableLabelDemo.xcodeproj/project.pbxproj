@@ -6,7 +6,30 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		305D2C0319AC2B4E009C0E08 /* UniversalLib */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 305D2C0419AC2B4E009C0E08 /* Build configuration list for PBXAggregateTarget "UniversalLib" */;
+			buildPhases = (
+				305D2C0719AC2B5A009C0E08 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = UniversalLib;
+			productName = UniversalLib;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
+		305D2BDF19AC2A3C009C0E08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D20BF0F179FEC7E0093BA0D /* Foundation.framework */; };
+		305D2BED19AC2A3C009C0E08 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 305D2BEC19AC2A3C009C0E08 /* XCTest.framework */; };
+		305D2BEE19AC2A3C009C0E08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D20BF0F179FEC7E0093BA0D /* Foundation.framework */; };
+		305D2BEF19AC2A3C009C0E08 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D20BF0D179FEC7E0093BA0D /* UIKit.framework */; };
+		305D2BF219AC2A3C009C0E08 /* libHTCopyableLabel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 305D2BDE19AC2A3C009C0E08 /* libHTCopyableLabel.a */; };
+		305D2BF819AC2A3C009C0E08 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 305D2BF619AC2A3C009C0E08 /* InfoPlist.strings */; };
+		305D2BFA19AC2A3C009C0E08 /* HTCopyableLabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 305D2BF919AC2A3C009C0E08 /* HTCopyableLabelTests.m */; };
+		305D2C0119AC2A6B009C0E08 /* HTCopyableLabel.h in Sources */ = {isa = PBXBuildFile; fileRef = 48759F5D17D47017001FC123 /* HTCopyableLabel.h */; };
+		305D2C0219AC2A6B009C0E08 /* HTCopyableLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 48759F5E17D47017001FC123 /* HTCopyableLabel.m */; };
 		48759F5F17D47017001FC123 /* HTCopyableLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 48759F5E17D47017001FC123 /* HTCopyableLabel.m */; };
 		8D20BF0E179FEC7E0093BA0D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D20BF0D179FEC7E0093BA0D /* UIKit.framework */; };
 		8D20BF10179FEC7E0093BA0D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D20BF0F179FEC7E0093BA0D /* Foundation.framework */; };
@@ -22,7 +45,35 @@
 		8D85CB6E17A00065008C14D1 /* HTPasteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D85CB6D17A00065008C14D1 /* HTPasteViewController.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		305D2BF019AC2A3C009C0E08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D20BF02179FEC7E0093BA0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 305D2BDD19AC2A3C009C0E08;
+			remoteInfo = HTCopyableLabel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		305D2BDC19AC2A3C009C0E08 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		305D2BDE19AC2A3C009C0E08 /* libHTCopyableLabel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libHTCopyableLabel.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		305D2BEB19AC2A3C009C0E08 /* HTCopyableLabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HTCopyableLabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		305D2BEC19AC2A3C009C0E08 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		305D2BF519AC2A3C009C0E08 /* HTCopyableLabelTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HTCopyableLabelTests-Info.plist"; sourceTree = "<group>"; };
+		305D2BF719AC2A3C009C0E08 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		305D2BF919AC2A3C009C0E08 /* HTCopyableLabelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTCopyableLabelTests.m; sourceTree = "<group>"; };
 		48759F5D17D47017001FC123 /* HTCopyableLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTCopyableLabel.h; sourceTree = "<group>"; };
 		48759F5E17D47017001FC123 /* HTCopyableLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTCopyableLabel.m; sourceTree = "<group>"; };
 		8D20BF0A179FEC7E0093BA0D /* HTCopyableLabelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HTCopyableLabelDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,6 +97,25 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		305D2BDB19AC2A3C009C0E08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				305D2BDF19AC2A3C009C0E08 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		305D2BE819AC2A3C009C0E08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				305D2BED19AC2A3C009C0E08 /* XCTest.framework in Frameworks */,
+				305D2BF219AC2A3C009C0E08 /* libHTCopyableLabel.a in Frameworks */,
+				305D2BEF19AC2A3C009C0E08 /* UIKit.framework in Frameworks */,
+				305D2BEE19AC2A3C009C0E08 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8D20BF07179FEC7E0093BA0D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -59,6 +129,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		305D2BF319AC2A3C009C0E08 /* HTCopyableLabelTests */ = {
+			isa = PBXGroup;
+			children = (
+				305D2BF919AC2A3C009C0E08 /* HTCopyableLabelTests.m */,
+				305D2BF419AC2A3C009C0E08 /* Supporting Files */,
+			);
+			path = HTCopyableLabelTests;
+			sourceTree = "<group>";
+		};
+		305D2BF419AC2A3C009C0E08 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				305D2BF519AC2A3C009C0E08 /* HTCopyableLabelTests-Info.plist */,
+				305D2BF619AC2A3C009C0E08 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		48759F6017D4701B001FC123 /* HTCopyableLabel */ = {
 			isa = PBXGroup;
 			children = (
@@ -73,6 +161,7 @@
 			children = (
 				48759F6017D4701B001FC123 /* HTCopyableLabel */,
 				8D20BF13179FEC7E0093BA0D /* HTCopyableLabelDemo */,
+				305D2BF319AC2A3C009C0E08 /* HTCopyableLabelTests */,
 				8D20BF0C179FEC7E0093BA0D /* Frameworks */,
 				8D20BF0B179FEC7E0093BA0D /* Products */,
 			);
@@ -82,6 +171,8 @@
 			isa = PBXGroup;
 			children = (
 				8D20BF0A179FEC7E0093BA0D /* HTCopyableLabelDemo.app */,
+				305D2BDE19AC2A3C009C0E08 /* libHTCopyableLabel.a */,
+				305D2BEB19AC2A3C009C0E08 /* HTCopyableLabelTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -92,6 +183,7 @@
 				8D20BF0D179FEC7E0093BA0D /* UIKit.framework */,
 				8D20BF0F179FEC7E0093BA0D /* Foundation.framework */,
 				8D20BF11179FEC7E0093BA0D /* CoreGraphics.framework */,
+				305D2BEC19AC2A3C009C0E08 /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -136,6 +228,41 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		305D2BDD19AC2A3C009C0E08 /* HTCopyableLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 305D2BFB19AC2A3C009C0E08 /* Build configuration list for PBXNativeTarget "HTCopyableLabel" */;
+			buildPhases = (
+				305D2BDA19AC2A3C009C0E08 /* Sources */,
+				305D2BDB19AC2A3C009C0E08 /* Frameworks */,
+				305D2BDC19AC2A3C009C0E08 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HTCopyableLabel;
+			productName = HTCopyableLabel;
+			productReference = 305D2BDE19AC2A3C009C0E08 /* libHTCopyableLabel.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		305D2BEA19AC2A3C009C0E08 /* HTCopyableLabelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 305D2BFE19AC2A3C009C0E08 /* Build configuration list for PBXNativeTarget "HTCopyableLabelTests" */;
+			buildPhases = (
+				305D2BE719AC2A3C009C0E08 /* Sources */,
+				305D2BE819AC2A3C009C0E08 /* Frameworks */,
+				305D2BE919AC2A3C009C0E08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				305D2BF119AC2A3C009C0E08 /* PBXTargetDependency */,
+			);
+			name = HTCopyableLabelTests;
+			productName = HTCopyableLabelTests;
+			productReference = 305D2BEB19AC2A3C009C0E08 /* HTCopyableLabelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		8D20BF09179FEC7E0093BA0D /* HTCopyableLabelDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8D20BF2D179FEC7E0093BA0D /* Build configuration list for PBXNativeTarget "HTCopyableLabelDemo" */;
@@ -162,6 +289,14 @@
 				CLASSPREFIX = HT;
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = HotelTonight;
+				TargetAttributes = {
+					305D2BEA19AC2A3C009C0E08 = {
+						TestTargetID = 8D20BF09179FEC7E0093BA0D;
+					};
+					8D20BF09179FEC7E0093BA0D = {
+						DevelopmentTeam = W2QYWGEPXJ;
+					};
+				};
 			};
 			buildConfigurationList = 8D20BF05179FEC7E0093BA0D /* Build configuration list for PBXProject "HTCopyableLabelDemo" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -176,11 +311,22 @@
 			projectRoot = "";
 			targets = (
 				8D20BF09179FEC7E0093BA0D /* HTCopyableLabelDemo */,
+				305D2BDD19AC2A3C009C0E08 /* HTCopyableLabel */,
+				305D2BEA19AC2A3C009C0E08 /* HTCopyableLabelTests */,
+				305D2C0319AC2B4E009C0E08 /* UniversalLib */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		305D2BE919AC2A3C009C0E08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				305D2BF819AC2A3C009C0E08 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8D20BF08179FEC7E0093BA0D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -195,7 +341,40 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		305D2C0719AC2B5A009C0E08 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# define output folder environment variable\nUNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal\n\n# Step 1. Build Device and Simulator versions\nxcodebuild -target HTCopyableLabel ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\nxcodebuild -target HTCopyableLabel -configuration ${CONFIGURATION} -sdk iphonesimulator -arch i386 BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\n\n# make sure the output directory exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n\n# Step 2. Create universal binary file using lipo\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/lib${PROJECT_NAME}.a\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/lib${PROJECT_NAME}.a\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/lib${PROJECT_NAME}.a\"\n\n# Last touch. copy the header files. Just for convenience\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/include\" \"${UNIVERSAL_OUTPUTFOLDER}/\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		305D2BDA19AC2A3C009C0E08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				305D2C0119AC2A6B009C0E08 /* HTCopyableLabel.h in Sources */,
+				305D2C0219AC2A6B009C0E08 /* HTCopyableLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		305D2BE719AC2A3C009C0E08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				305D2BFA19AC2A3C009C0E08 /* HTCopyableLabelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8D20BF06179FEC7E0093BA0D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -210,7 +389,23 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		305D2BF119AC2A3C009C0E08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 305D2BDD19AC2A3C009C0E08 /* HTCopyableLabel */;
+			targetProxy = 305D2BF019AC2A3C009C0E08 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
+		305D2BF619AC2A3C009C0E08 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				305D2BF719AC2A3C009C0E08 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		8D20BF16179FEC7E0093BA0D /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -230,6 +425,130 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		305D2BFC19AC2A3C009C0E08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				DSTROOT = /tmp/HTCopyableLabel.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HTCopyableLabelDemo/HTCopyableLabelDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		305D2BFD19AC2A3C009C0E08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				DSTROOT = /tmp/HTCopyableLabel.dst;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HTCopyableLabelDemo/HTCopyableLabelDemo-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		305D2BFF19AC2A3C009C0E08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HTCopyableLabelDemo.app/HTCopyableLabelDemo";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HTCopyableLabel/HTCopyableLabel-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = "HTCopyableLabelTests/HTCopyableLabelTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		305D2C0019AC2A3C009C0E08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HTCopyableLabelDemo.app/HTCopyableLabelDemo";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				ENABLE_NS_ASSERTIONS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HTCopyableLabel/HTCopyableLabel-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = "HTCopyableLabelTests/HTCopyableLabelTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		305D2C0519AC2B4E009C0E08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		305D2C0619AC2B4E009C0E08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		8D20BF2B179FEC7E0093BA0D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -289,10 +608,13 @@
 		8D20BF2E179FEC7E0093BA0D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HTCopyableLabelDemo/HTCopyableLabelDemo-Prefix.pch";
 				INFOPLIST_FILE = "HTCopyableLabelDemo/HTCopyableLabelDemo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -300,10 +622,13 @@
 		8D20BF2F179FEC7E0093BA0D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HTCopyableLabelDemo/HTCopyableLabelDemo-Prefix.pch";
 				INFOPLIST_FILE = "HTCopyableLabelDemo/HTCopyableLabelDemo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -311,6 +636,30 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		305D2BFB19AC2A3C009C0E08 /* Build configuration list for PBXNativeTarget "HTCopyableLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				305D2BFC19AC2A3C009C0E08 /* Debug */,
+				305D2BFD19AC2A3C009C0E08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		305D2BFE19AC2A3C009C0E08 /* Build configuration list for PBXNativeTarget "HTCopyableLabelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				305D2BFF19AC2A3C009C0E08 /* Debug */,
+				305D2C0019AC2A3C009C0E08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		305D2C0419AC2B4E009C0E08 /* Build configuration list for PBXAggregateTarget "UniversalLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				305D2C0519AC2B4E009C0E08 /* Debug */,
+				305D2C0619AC2B4E009C0E08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		8D20BF05179FEC7E0093BA0D /* Build configuration list for PBXProject "HTCopyableLabelDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

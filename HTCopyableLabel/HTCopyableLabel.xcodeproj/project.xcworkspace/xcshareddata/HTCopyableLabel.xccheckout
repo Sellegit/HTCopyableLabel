@@ -5,20 +5,20 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>EFF118BE-DF42-45FE-A746-C0A3E21CD6AF</string>
+	<string>DF153007-DB51-4885-89CC-EB3B730A20B5</string>
 	<key>IDESourceControlProjectName</key>
-	<string>HTCopyableLabelDemo</string>
+	<string>HTCopyableLabel</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>D1C6D1B5-CC38-4768-A14C-0DAB1474342B</key>
 		<string>ssh://github.com/Sellegit/HTCopyableLabel.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>HTCopyableLabelDemo.xcodeproj/project.xcworkspace</string>
+	<string>HTCopyableLabel/HTCopyableLabel.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>D1C6D1B5-CC38-4768-A14C-0DAB1474342B</key>
-		<string>../..</string>
+		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>ssh://github.com/Sellegit/HTCopyableLabel.git</string>
