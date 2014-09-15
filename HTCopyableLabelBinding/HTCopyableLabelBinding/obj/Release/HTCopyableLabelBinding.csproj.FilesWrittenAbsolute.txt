@@ -1,0 +1,5 @@
+/Users/dementrock/Sellegit/peach_mobile/Lib/HTCopyableLabel/HTCopyableLabelBinding/HTCopyableLabelBinding/obj/Release/MonoTouch,Version=v1.0.AssemblyAttribute.cs
+/Users/dementrock/Sellegit/peach_mobile/Lib/HTCopyableLabel/HTCopyableLabelBinding/HTCopyableLabelBinding/bin/Release/HTCopyableLabelBinding.dll.mdb
+/Users/dementrock/Sellegit/peach_mobile/Lib/HTCopyableLabel/HTCopyableLabelBinding/HTCopyableLabelBinding/bin/Release/HTCopyableLabelBinding.dll
+/Users/dementrock/Sellegit/peach_mobile/Lib/HTCopyableLabel/HTCopyableLabelBinding/HTCopyableLabelBinding/obj/Release/HTCopyableLabelBinding.dll
+/Users/dementrock/Sellegit/peach_mobile/Lib/HTCopyableLabel/HTCopyableLabelBinding/HTCopyableLabelBinding/obj/Release/HTCopyableLabelBinding.dll.mdb

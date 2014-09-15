@@ -16,7 +16,6 @@ using MonoTouch.UIKit;
 using MonoTouch.GLKit;
 using MonoTouch.MapKit;
 using MonoTouch.Security;
-using MonoTouch.SceneKit;
 using MonoTouch.CoreVideo;
 using MonoTouch.CoreMedia;
 using MonoTouch.QuickLook;

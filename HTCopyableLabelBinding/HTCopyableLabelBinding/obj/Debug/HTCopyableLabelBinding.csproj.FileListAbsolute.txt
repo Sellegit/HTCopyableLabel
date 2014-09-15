@@ -1,0 +1,5 @@
+Y:\Sellegit\peach_mobile\Lib\HTCopyableLabel\HTCopyableLabelBinding\HTCopyableLabelBinding\bin\Debug\HTCopyableLabelBinding.dll
+Y:\Sellegit\peach_mobile\Lib\HTCopyableLabel\HTCopyableLabelBinding\HTCopyableLabelBinding\bin\Debug\HTCopyableLabelBinding.pdb
+Y:\Sellegit\peach_mobile\Lib\HTCopyableLabel\HTCopyableLabelBinding\HTCopyableLabelBinding\obj\Debug\HTCopyableLabelBinding.csprojResolveAssemblyReference.cache
+Y:\Sellegit\peach_mobile\Lib\HTCopyableLabel\HTCopyableLabelBinding\HTCopyableLabelBinding\obj\Debug\HTCopyableLabelBinding.dll
+Y:\Sellegit\peach_mobile\Lib\HTCopyableLabel\HTCopyableLabelBinding\HTCopyableLabelBinding\obj\Debug\HTCopyableLabelBinding.pdb
