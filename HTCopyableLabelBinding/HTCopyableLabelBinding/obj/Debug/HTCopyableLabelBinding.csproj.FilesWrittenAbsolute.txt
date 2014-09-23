@@ -3,3 +3,8 @@
 /Users/dementrock/Sellegit/peach_mobile/Lib/HTCopyableLabel/HTCopyableLabelBinding/HTCopyableLabelBinding/bin/Debug/HTCopyableLabelBinding.dll
 /Users/dementrock/Sellegit/peach_mobile/Lib/HTCopyableLabel/HTCopyableLabelBinding/HTCopyableLabelBinding/obj/Debug/HTCopyableLabelBinding.dll
 /Users/dementrock/Sellegit/peach_mobile/Lib/HTCopyableLabel/HTCopyableLabelBinding/HTCopyableLabelBinding/obj/Debug/HTCopyableLabelBinding.dll.mdb
+/Users/xichen/Projects/peach_modile/Lib/HTCopyableLabel/HTCopyableLabelBinding/HTCopyableLabelBinding/obj/Debug/MonoTouch,Version=v1.0.AssemblyAttribute.cs
+/Users/xichen/Projects/peach_modile/Lib/HTCopyableLabel/HTCopyableLabelBinding/HTCopyableLabelBinding/bin/Debug/HTCopyableLabelBinding.dll.mdb
+/Users/xichen/Projects/peach_modile/Lib/HTCopyableLabel/HTCopyableLabelBinding/HTCopyableLabelBinding/bin/Debug/HTCopyableLabelBinding.dll
+/Users/xichen/Projects/peach_modile/Lib/HTCopyableLabel/HTCopyableLabelBinding/HTCopyableLabelBinding/obj/Debug/HTCopyableLabelBinding.dll
+/Users/xichen/Projects/peach_modile/Lib/HTCopyableLabel/HTCopyableLabelBinding/HTCopyableLabelBinding/obj/Debug/HTCopyableLabelBinding.dll.mdb
